@@ -1,12 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-}
-h1,h2,h3,h4,h5,h6,p,span{
     font-family: 'Finlandica', sans-serif;
-font-family: 'Lobster Two', cursive;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Work Sans', sans-serif;
 }
 h1{
     font-size: 45px;
@@ -18,20 +16,17 @@ h1{
 .header-p{
     font-size: 18px;
     color: #767676;
+    margin-bottom: 60px;
 }
 .half-div{
     display: flex;
     background-image: url(./images/shapes/Frame\ 58.jpg);
 }
 .header{
-    width: 50%;
+    width: 48%;
     margin-left: 8%;
     margin-top: 150px;
-    padding-bottom: 30px;
-   
-}
-a {
-    margin-top: 20px;
+    padding-bottom: 30px;  
 }
 .btn-primary{
    background-image: linear-gradient(#e67e22,#f1c40f) ;
@@ -40,8 +35,15 @@ a {
    text-decoration: none;
    font-size: 26px;
    margin-left: 11%;
- 
+   color: aliceblue;
 }
 .header img{
     border-radius: 50%;
+}
+.about-sec{
+    display: flex;
+    background-image: url(./images/shapes/Frame\ 59.jpg);
+}
+.about-h{
+    color:#767676;
 }
